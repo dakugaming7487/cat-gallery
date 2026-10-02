@@ -9,16 +9,6 @@ Browse through a collection of cat images using the **Previous** and **Next** bu
 **Github Pages:**
 https://dakugaming7487.github.io/cat-gallery/
 
-## ✨ Features 
-
-- 🐱 Displays a collection of 15 cat images
-- ◀️ Previous image navigation
-- ▶️ Next image navigation
-- 🔄 Loops first to last then starts over from first
-- 📱 Responsive viewport setup
-- ⚡ Lightweight and fast
-- 🎨 Simple and clean interface
-- 📦 No external libraries or frameworks
 
 ## 🛠️ Buit with
 
@@ -29,34 +19,39 @@ https://dakugaming7487.github.io/cat-gallery/
 ## 📁 Project Structure
 
 ```text
-cat-gallery/
-├── images/
+.
+├── images
+│   ├── cat10.jpeg
+│   ├── cat11.jpeg
+│   ├── cat12.jpeg
+│   ├── cat13.jpeg
+│   ├── cat14.jpeg
+│   ├── cat15.jpeg
 │   ├── cat1.jpeg
 │   ├── cat2.jpeg
 │   ├── cat3.jpeg
-│   ├── ...
-│   └── cat15.jpeg
+│   ├── cat4.jpeg
+│   ├── cat5.jpeg
+│   ├── cat6.jpeg
+│   ├── cat7.jpeg
+│   ├── cat8.jpeg
+│   └── cat9.jpeg
 ├── index.html
-├── style.css
-├── script.js
 ├── LICENSE
-└── README.md
+├── README.md
+├── screenshots
+│   └── homepage.png
+├── script.js
+└── style.css
+
+3 directories, 21 files
 ```
 
 ## 🚀 How It Works
 
-The website stores the paths of all cat images in a JavaScript array.
+The script.js file contains the logic that helps in navigations of images, it also consists of a array of image paths 
 
-The `currentImage` variable keeps track of which image is currently being displayed.
-
-When the **Next** button is clicked, the gallery moves to the next image.
-
-When the **Previous** button is clicked, the gallery moves to the previous image.
-
-The gallery loops around automatically:
-
-- Clicking **Next** on the last image returns to the first image.
-- Clicking **Previous** on the first image goes to the last image.
+clicking the button in the left navigates backward while the right button navigates forward
 
 ## 💻 Run Locally
 
@@ -78,10 +73,10 @@ You can also use a local development server such as VS Code Live Server.
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+The license is **MIT License** cause there is nothing you can acctualy use in a interview
 
 See the `LICENSE` file for more information.
 
 ## 👨‍💻 Author
 
-Made by **Daku Gaming**
+Made by **Daku Gaming**(me)
